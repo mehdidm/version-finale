@@ -110,6 +110,7 @@
             matTooltip="Delete"
             matTooltipClass="example-tooltip-red"
             (click)="Delete(e.id)"
+            (click)="openSnackBar(e.id)"
           >
             <mat-icon>delete</mat-icon>
           </button>

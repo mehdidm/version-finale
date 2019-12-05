@@ -8,6 +8,8 @@ import { MatSnackBar } from '@angular/material';
 import { from } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 
+
+
 export interface PeriodicElement {
   name: string;
   position: number;
@@ -38,15 +40,17 @@ export class ListProduitComponent implements OnInit {
   constructor(
     private produitservice: ProduitService,
     private _bottomSheet: MatBottomSheet,
-    private _snackBar: MatSnackBar ,private activatedroute:ActivatedRoute
+    private _snackBar: MatSnackBar ,private activatedroute:ActivatedRoute,
   ) {}
 
   openBottomSheet(): void {
     this._bottomSheet.open(BottomSheetOverviewExampleSheet);
   }
-  openSnackBar(message: string, action: string) {
-    this._snackBar.open(message, action, {
-      duration: 2000
+  //Delete Snack Bar
+  action2:string="";
+  openSnackBar(message: number, action2: string) {
+    this._snackBar.open( message+" Has been Deleted Successfully! ", this.action2, {
+      duration: 2000,
     });
   }
   ngOnInit() {
