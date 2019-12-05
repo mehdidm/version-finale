@@ -1,0 +1,123 @@
+<app-nav-menu>
+  <div>
+    <h1></h1>
+  </div>
+  <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+    <mat-card class="z-depth-5">
+      <mat-card-title>Ajout d'un produit</mat-card-title>
+      <div class="login-container">
+        <mat-form-field>
+          <input [matAutocomplete]="auto"
+            matInput
+            placeholder="Image"
+            type="text"
+            id="image"
+            name="image"
+            [(ngModel)]="image"
+            class="form-control"
+            required
+            #im="ngModel"
+          /> </mat-form-field
+        ><br />
+
+        <mat-form-field>
+          <input
+            matInput
+            placeholder="Product Name"
+            type="text"
+            id="libelle"
+            name="libelle"
+            [(ngModel)]="libelle"
+            class="form-control"
+            required
+            #lib="ngModel"
+          /> </mat-form-field
+        ><br />
+        <mat-form-field>
+            <textarea
+              matInput
+              placeholder="Description"
+              type="text"
+              id="description"
+              name="description"
+              [(ngModel)]="description"
+              class="form-control"
+              required
+              #desc="ngModel"
+            ></textarea>
+            </mat-form-field
+          ><br />
+        <mat-form-field>
+          <input
+            matInput
+            placeholder="ID produit"
+            type="number"
+            id="id"
+            name="id"
+            [(ngModel)]="id"
+            class="form-control"
+            required
+            #identif="ngModel"
+          /> </mat-form-field
+        ><br />
+        <mat-form-field>
+          <input
+            matInput
+            placeholder="Prix"
+            type="number"
+            id="prix"
+            name="prix"
+            [(ngModel)]="prix"
+            class="form-control"
+            required
+            #pr="ngModel"
+          /> </mat-form-field
+        ><br />
+        <mat-form-field>
+            <input
+              matInput
+              placeholder="Quantity"
+              type="number"
+              id="nbStock"
+              name="nbStock"
+              [(ngModel)]="nbStock"
+              class="form-control"
+              required
+              #quant="ngModel"
+            /> </mat-form-field
+          ><br />
+        <mat-form-field>
+          <input
+            matInput
+            [matDatepicker]="picker"
+            placeholder="Stock Date"
+            [(ngModel)]="date"
+            name="date"
+            required
+            #dt="ngModel"
+            id="date"
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="picker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker> </mat-form-field
+        ><br />
+
+        <mat-checkbox
+        class="example-margin"
+        [(ngModel)]="stock"
+        [(indeterminate)]="indeterminate"
+        [labelPosition]="labelPosition"
+        [disabled]="disabled"
+        >
+          In Stock
+        </mat-checkbox>
+        <br>
+      </div>
+      <button mat-stroked-button [disabled]="f.invalid">submit</button> &nbsp;
+      <div [hidden]="!submit">{{ message }}</div>
+      <button mat-stroked-button type="reset">reset</button>
+    </mat-card>
+  </form>
+</app-nav-menu>

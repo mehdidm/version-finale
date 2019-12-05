@@ -1,0 +1,53 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
+  .hideButton{
+    cursor: pointer;
+  }
+  .container{
+    height: 100%;
+    position: relative;
+  /* background-image: url("../../assets/loginBackground.jpg")  ;*/
+   padding-top: 150px;
+    
+  }
+  button:hover {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+  .z-depth-1-half {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  }
+  .z-depth-5 {
+   /* box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);*/
+   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+  
+  mat-card{
+    padding: 30px;
+    text-align: center;
+    width: 500px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    z-index: 15;
+    -webkit-box-shadow: 15px -15px 30px rgba(0,0,0,0.2);
+    -moz-box-shadow: 15px -15px 30px rgba(0,0,0,0.2);
+  
+  }
+  mat-card{
+    border-radius: 10px;
+   
+    margin: auto auto auto auto ;
+  }
+  
+  .login-container {
+      display: flex;
+      flex-direction: column;    
+    }
+    
+    .login-container > * {
+      width: 100%;
+    }

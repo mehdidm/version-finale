@@ -1,0 +1,28 @@
+<div class="container ">
+  <div class="form-container">
+    <form  action="" (ngSubmit)="onSubmit(f)" #f="ngForm">*
+    <mat-card class="z-depth-5">
+      <mat-card-title>LOGIN</mat-card-title>
+      <div class="login-container">
+        <mat-form-field>
+          <input matInput placeholder="ID" required pattern="admin" name="id" #identif="ngModel" [(ngModel)]="id" />
+          <mat-error *ngIf="identif.errors?.pattern && identif.dirty">identifiant est:admin</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'" required pattern="admin" name="password" #pass="ngModel" [(ngModel)]="password">
+            <mat-icon matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" matRipple  class="hideButton" mattRippleRadius="0.3" >{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            <mat-error *ngIf="pass.errors?.pattern && pass.dirty">{{errorMessage}}</mat-error><br>
+          </mat-form-field>
+      </div>
+      <br>
+      <div>
+        <button mat-stroked-button type="submit" [disabled]="f.invalid">Login</button><br>
+        <br>
+      </div>
+      <mat-progress-bar mode="buffer"  color="primary"></mat-progress-bar>
+    </mat-card>
+  </form>
+  
+  </div>
+</div>

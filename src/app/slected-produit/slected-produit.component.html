@@ -1,0 +1,13 @@
+<app-nav-menu></app-nav-menu>
+<h2>Details du produit</h2>
+
+<ul>
+        <li><img src={{p.image}} ></li>
+        <li>{{p.id}} </li>
+        <li>{{p.libelle |uppercase}} </li>
+        <li>{{p.prix |currency }} </li>
+        <li>{{p.stock}} </li>
+        <li>Date de fabrication : {{p.date |date}}</li>
+
+</ul>
+<button [routerLink]="['/list-produit']"> Retour</button>
