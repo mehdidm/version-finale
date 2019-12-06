@@ -1,4 +1,26 @@
 <app-nav-menu>
-        <h1>présentation de l'application</h1>
-        <p>Cette application permet de gérer les employés</p>
+  <div>
+    <mat-grid-list cols="2" rowHeight="2:1">
+      <mat-grid-tile matRipple >
+        <a href="https://www.google.com/intl/fr/gmail/about/#"target="_blank">
+          <mat-icon>email</mat-icon>
+        </a>
+      </mat-grid-tile>
+      <mat-grid-tile matRipple>
+        <a [routerLink]="'/list-produit'">
+                <mat-icon>list</mat-icon>
+        </a>
+      </mat-grid-tile>
+      <mat-grid-tile matRipple>
+        <a [routerLink]="'/Ajouter'">
+                <mat-icon>add_box</mat-icon>
+        </a>
+      </mat-grid-tile>
+      <mat-grid-tile matRipple>
+        <a href="#" target="_blank">
+          <mat-icon>power_settings_new</mat-icon>
+        </a>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
 </app-nav-menu>

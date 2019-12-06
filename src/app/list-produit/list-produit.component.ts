@@ -53,9 +53,10 @@ export class ListProduitComponent implements OnInit {
       duration: 2000,
     });
   }
+
+  LibelleArticle:String="";
   ngOnInit() {
     this.pr = this.produitservice.produits;}
-
     Delete(id:number)
     {
 

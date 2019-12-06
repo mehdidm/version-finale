@@ -12,6 +12,18 @@
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   padding: 0;
 }
+  #searchBar{
+    margin-left: 10px;
+  }
+  .searchBar{
+    width: 80%;
+  }
+  .align-text{
+    text-align: left;
+  }
+ul{
+  list-style-type: none;
+}
 .label-container{
 	position:fixed;
 	bottom:48px;
