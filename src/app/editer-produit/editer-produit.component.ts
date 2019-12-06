@@ -18,7 +18,7 @@ export class EditerProduitComponent implements OnInit {
   image: string = "";
   prix: number;
   nbStock: number;
-  stock: boolean;
+  stock: boolean ;
   submitted: boolean = false;
 
   date: Date;

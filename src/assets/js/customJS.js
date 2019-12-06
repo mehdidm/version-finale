@@ -8,10 +8,10 @@
 function moveBackground() {
   x += (lFollowX - x) * friction;
   y += (lFollowY - y) * friction;
-  
+
   translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
 
-  $('.bg').css({
+  $('.container').css({
     '-webit-transform': translate,
     '-moz-transform': translate,
     'transform': translate

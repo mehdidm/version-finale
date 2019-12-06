@@ -67,7 +67,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      123,
       "Jack Daniels Honey",
       "Long awaited in the UK and with a big following in the USA, this is Jack Daniel's honey and whiskey liqueur. A mix of regular Old No 7 and a spiced honey liqueur, it's got spice, sweetness, floral undertones and a long smooth finish. Drink over ice, chilled or even in a cup of coffee – it's rather tasty.",
       "assets/JackDanielsHoney.jpg",
@@ -77,7 +77,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      123124,
       "Jack Daniels Old N° 7",
       "The original all-conquering cola-friendly colossus, Jack Daniel's No. 7 commands a legion of fans worldwide, thanks to the sweet smoothness imparted by the Lincoln County Process of charcoal-mellowing the spirit before maturation.",
       "assets/JackDanielsOldN7.jpg",
@@ -87,7 +87,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      879,
       "Jameson",
       "The original all-conquering cola-friendly colossus, Jack Daniel's No. 7 commands a legion of fans worldwide, thanks to the sweet smoothness imparted by the Lincoln County Process of charcoal-mellowing the spirit before maturation.",
       "assets/Jameson.jpg",
@@ -97,7 +97,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      879258,
       "Johnnie Walker Black Label",
       "Johnnie Walker Black Label's iconic square bottle makes it one of the world's most recognisable Scotch whiskies - and it's also one of whisky critic Jim Murray's favourite blends: 'If there is a silkier delivery on the market today, I have not seen it: this is sublime stuff...one of the world's most masterful whiskies back in all its complex glory'",
       "assets/JohnieWalkerBlackLabel.jpg",
@@ -107,7 +107,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      8741258,
       "Johnnie Walker Blue Label",
       "Johnnie Walker Black Label's iconic square bottle makes it one of the world's most recognisable Scotch whiskies - and it's also one of whisky critic Jim Murray's favourite blends: 'If there is a silkier delivery on the market today, I have not seen it: this is sublime stuff...one of the world's most masterful whiskies back in all its complex glory'",
       "assets/JohnieWalkerBlueLabel.jpg",
@@ -117,7 +117,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      951,
       "Johnnie Walker Double Black",
       "An interesting twist on Johnnie Walker Black Label, Double Black was rolled out for general release in 2011 after a successful launch in travel retail. Double Black adds to the normal Black Label profile by including more Islay whisky and casks that have been heavily charred, giving a more intense flavour with a greater emphasis on smoke while keeping true to the sophisticated Johnnie Walker style.",
       "assets/JohnieWalkerDoubleBlack.jpg",
@@ -127,7 +127,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      9517533,
       "Johnnie Walker Green Label",
       "Green Label is arguably the richest horse in the Johnnie Walker stable. This blended malt whisky travels the regions of Scottish whisky production and conveys the whirlwind of flavours to your mouth. Hearty.",
       "assets/JohnieWalkerGreenLabel.jpg",
@@ -137,7 +137,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      7771,
       "Johnnie Walker Red Label",
       "Don't mind this, this is shit ",
       "assets/JohnieWalkerRedLabel.jpg",
@@ -147,7 +147,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      75364,
       "Nikka Blended Whiskey ",
       "The simply named Nikka Blended Whisky shows off the skills of the company's blenders more than any of their other bottlings. Packed full of fruit and more refined than their other blends this is a perfect entry point into the world of Japanese whisky.",
       "assets/NikkaBlended2.jpg",
@@ -157,7 +157,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      159753,
       "Nikka 70TH Anniversary Set(4 Bottles) ",
       "1 x 12yo Master Blender's Blended Whisky, 1 x 12yo Single Coffey Grain ,1 x 12yo Miyagikyo, 1 x 12yo Yoichi",
       "assets/Nikka70ThAnniversary.jpg",
@@ -167,7 +167,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      75300,
       "Nikka Coffey Grain ",
       "A gift set of grain whisky from Japan's Nikka – produced mainly from corn using one of their continuous Coffey stills – and a stylish Nikka tasting glass. Rather than the rare and limited releases they have done before, this is a larger release to further show off this key component in the Nikka family of whiskies.",
       "assets/NikkaCoffeyGrain.jpg",
@@ -177,7 +177,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      25000,
       "Nikka Taketsuru Pure Malt 25  ",
       "Taketsuru's no-age-statement blended malt contains a high percentage of malt from Miyagikyo, with the reminder coming from Yoichi. Aged on average for around 10 years in a variety of different cask types, including some sherry wood for extra richness.",
       "assets/NikkaTaketsuru25.jpg",
@@ -187,7 +187,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      200,
       "Nikka From The Barrel",
       "Nikka from the Barrel is big-boned and bursting with character. Not averse to a drop of water, either. A real star, winning top prize in its category at the World Whisky Awards in 2007 and 2010.",
       "assets/NikkaFromTheBarrel.jpg",
@@ -197,7 +197,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      10000,
       "Chivas Regal 12",
       "'The blend for grown-ups, for people who have made their rites of passage and are ready to enjoy their success. Sweet, but not cloying. Buxom, but not overblown. Balanced. 9/10.' Paul Pacult in Whisky Magazine April 2000",
       "assets/ChivasRegal12.jpg",
@@ -207,7 +207,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      80000000001,
       "Chivas Regal 18",
       "Premium aged mix of some of Scotland's finest whiskies with an above-average proportion of malt and an extended ageing period producing a truly fine blend.",
       "assets/ChivasRegal18.jpg",
@@ -217,7 +217,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      110,
       "Chivas Regal Extra",
       "Chivas Regal Extra is the most rich and intense Chivas. With Chivas Regal Extra discover an exceptionally rich and generous Chivas blend, a real tribute to the Chivas' brothers pioneering mastery in the art of blending legendary and generous whiskies. Chivas Regal Extra takes the unequalled Chivas house-style taste and its renowned unique quality to a whole new level.",
       "assets/ChivasRegalExtra.jpg",
@@ -227,7 +227,7 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      7110,
       "Moez Ben Hassen",
       "Moez un jeune tunisien de 20 ans , n'aime pas nirvana ni Dragon Ball Z (oui c'est trés bizzare ) toujours souriant en plus il est hyperactif ,  adore iset charguia et surtout l'ambiance du fac  .",
       "assets/moez.jpg",
@@ -247,13 +247,13 @@ export class ProduitService {
       new Date("2019-01-10")
     ),
     new produit(
-      18345,
+      8810,
       "Chivas Regal 25 Years Old",
       "A very old original bottle of Chivas Regal 25 Year Old in the unusual 1.13-litre size favoured in the UK at the time. A bona fide collector's item, this is a beautiful piece of whisky history that we estimate dates from the early 1930s.",
       "assets/ChivasRegal25.jpg",
       5000,
       2,
-      true,
+      false,
       new Date("2019-01-10")
     )
   ];
@@ -269,7 +269,7 @@ export class ProduitService {
   }
 
   public addProduit(id: number, libelle: string,description: string, image: string, prix: number,nbStock:number, stock: boolean, date: Date): boolean {
-    if (this.getProduitId(id) == null) {
+    if (this.getProduitId(id)==null) {
       const nouveau: produit = new produit(id, libelle,description, image, prix,nbStock, stock, date);
       this.produits.push(nouveau);
       return true;
